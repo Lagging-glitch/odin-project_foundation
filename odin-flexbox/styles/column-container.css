@@ -1,15 +1,8 @@
 .column-container {
-  border: 8px solid rgb(24, 135, 12);
-  margin: 1em;
-  padding: 0.5em;
-  display: flex;
-
   flex-direction: column;
-  align-items: center;
-}
 
-.column-container > div {
-  padding: 1.5em;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .box-2 {
@@ -22,4 +15,11 @@
 
 .box-6 {
   background-color: #cb9c50;
+}
+
+.column-container > div {
+  padding: 1.5em;
+  width: 15vw;
+  height: 10vh;
+  text-align: center;
 }
