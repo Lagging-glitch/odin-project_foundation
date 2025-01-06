@@ -1,0 +1,25 @@
+.column-container {
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box-2 {
+  background-color: #2a92a2;
+}
+
+.box-4 {
+  background-color: #c05463;
+}
+
+.box-6 {
+  background-color: #cb9c50;
+}
+
+.column-container > div {
+  padding: 1.5em;
+  width: 15vw;
+  height: 10vh;
+  text-align: center;
+}

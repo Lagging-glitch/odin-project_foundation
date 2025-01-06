@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d6e2e1;
+  color: #1b173f;
+}
+
+.row-container,
+.column-container {
+  border: 8px solid rgb(86, 228, 100);
+  margin: 1em;
+  padding: 0.5em;
+  width: 80vw;
+  height: 45vh;
+  display: flex;
+
+  flex-wrap: wrap;
+}
